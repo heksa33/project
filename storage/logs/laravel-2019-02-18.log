@@ -1,0 +1,14 @@
+[2019-02-18 06:57:42] local.ERROR: Class 'Illuminate\Yajra\DataTables\DataTablesServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Illuminate\\Yajra\\DataTables\\DataTablesServiceProvider' not found at D:\\Apriani\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 D:\\Apriani\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Illuminate\\\\Yajr...')
+#1 D:\\Apriani\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 D:\\Apriani\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(574): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 D:\\Apriani\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 D:\\Apriani\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 D:\\Apriani\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 D:\\Apriani\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#7 D:\\Apriani\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#8 D:\\Apriani\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#9 D:\\Apriani\\server.php(21): require_once('D:\\\\Apriani\\\\publ...')
+#10 {main}
+"} 
